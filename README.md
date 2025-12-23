@@ -53,12 +53,7 @@ Implementation of comprehensive security monitoring using AWS native services fo
 | Failed Logins | CloudTrail | Detect brute force attempts |
 | Unusual API Activity | CloudWatch | Anomaly detection |
 
-## 📸 Implementation Proof
-Screenshots of the implemented configuration are available in the [screenshots/](screenshots/) folder:
-- AWS Console configurations
-- Service dashboards
-- Security settings
-  
+
 ## Security Analysis Capabilities
 - **Failed Login Detection:** Query for unauthorized access attempts
 - **IAM Policy Audit:** Monitor permission changes and role modifications  
@@ -73,6 +68,9 @@ Screenshots of the implemented configuration are available in the [screenshots/]
 3. **AWS Config** - Compliance monitoring with managed rules
 4. **CloudTrail** - API activity logging with multi-region trail
 5. **S3 Encryption** - Secure log storage for audit trails
+
+## 📸 Implementation Proof
+View configuration screenshots in the [screenshots/](screenshots/) folder.
 
 ### 📊 Metrics & Coverage
 - **Resources Monitored:** 22+ AWS resources
