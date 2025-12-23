@@ -53,6 +53,12 @@ Implementation of comprehensive security monitoring using AWS native services fo
 | Failed Logins | CloudTrail | Detect brute force attempts |
 | Unusual API Activity | CloudWatch | Anomaly detection |
 
+## 📸 Implementation Proof
+Screenshots of the implemented configuration are available in the [screenshots/](screenshots/) folder:
+- AWS Console configurations
+- Service dashboards
+- Security settings
+  
 ## 📊 Sample Athena Queries for Security Analysis
 ```sql
 -- Find all failed console logins
@@ -66,3 +72,5 @@ SELECT eventTime, userIdentity.arn, eventName, requestParameters
 FROM cloudtrail_logs
 WHERE eventName LIKE '%Policy%'
 OR eventName LIKE '%Role%';
+
+
