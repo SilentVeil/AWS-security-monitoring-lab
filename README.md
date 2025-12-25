@@ -41,7 +41,7 @@ Implementation of comprehensive security monitoring using AWS native services fo
 *Resource inventory and compliance monitoring with managed rules.*
 
 ### 4. Audit Trail & Forensic Readiness
-![CloudTrail Security Event](https://github.com/Silentveil/aws-cloudtrail-forensics-lab/raw/main/screenshots/cloudtrail-attack-event.png)
+![CloudTrail Security Event](https://github.com/SilentVeil/aws-cloudtrail-forensics-lab/blob/main/images/cloudtrail-attack-event.png)
 *CloudTrail log showing security event for forensic analysis and compliance auditing.*
 
 
