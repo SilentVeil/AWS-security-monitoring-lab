@@ -23,21 +23,21 @@ Implementation of comprehensive security monitoring using AWS native services fo
 ## 📸 Monitoring & Security Implementation
 
 ### 1. CloudWatch Monitoring Suite
-![CloudWatch Alarms](screenshots/cloudwatch-alarms.png)
+![CloudWatch Alarms](screenshot/cloudwatch-alarms.png)
 *Security alarms for anomalous activities and threshold violations.*
 
-![CloudWatch Metrics Dashboard](screenshots/cloudwatch-graph.png)
+![CloudWatch Metrics Dashboard](screenshot/cloudwatch-alarm-graph.png)
 *Visualization of security metrics and performance monitoring.*
 
 ### 2. Log Management & Analysis
-![CloudWatch Log Groups](screenshots/cloudwatch-logs-list.png)
+![CloudWatch Log Groups](screenshot/cloudwatch-logs-list.png)
 *Centralized log management with custom security log groups.*
 
-![Security Application Logs](screenshots/cloudwatch-logs-renaldi.png)
+![Security Application Logs](screenshot/cloudwatch-logs-renaldi.png)
 *Custom log group `Renaldi` for security event streaming and analysis.*
 
 ### 3. Compliance & Configuration Management
-![AWS Config Dashboard](screenshots/aws-config-dashboard.png)
+![AWS Config Dashboard](screenshot/AWS-Config-Dashboard.png)
 *Resource inventory and compliance monitoring with managed rules.*
 
 ### 4. Audit Trail & Forensic Readiness
