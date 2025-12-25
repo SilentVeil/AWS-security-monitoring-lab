@@ -20,6 +20,31 @@ Implementation of comprehensive security monitoring using AWS native services fo
 - **Amazon S3** (Log storage with encryption)
 - **Amazon SNS** (Alert notifications)
 
+## 📸 Monitoring & Security Implementation
+
+### 1. CloudWatch Monitoring Suite
+![CloudWatch Alarms](screenshots/cloudwatch-alarms.png)
+*Security alarms for anomalous activities and threshold violations.*
+
+![CloudWatch Metrics Dashboard](screenshots/cloudwatch-graph.png)
+*Visualization of security metrics and performance monitoring.*
+
+### 2. Log Management & Analysis
+![CloudWatch Log Groups](screenshots/cloudwatch-logs-list.png)
+*Centralized log management with custom security log groups.*
+
+![Security Application Logs](screenshots/cloudwatch-logs-renaldi.png)
+*Custom log group `Renaldi` for security event streaming and analysis.*
+
+### 3. Compliance & Configuration Management
+![AWS Config Dashboard](screenshots/aws-config-dashboard.png)
+*Resource inventory and compliance monitoring with managed rules.*
+
+### 4. Audit Trail & Forensic Readiness
+![CloudTrail Security Event](https://github.com/Silentveil/aws-cloudtrail-forensics-lab/raw/main/screenshots/cloudtrail-attack-event.png)
+*CloudTrail log showing security event for forensic analysis and compliance auditing.*
+
+
 ## 📁 Repository Structure
 
 ## 🚀 Implementation
